@@ -11,7 +11,9 @@
 
 
 html {
+
     /*colors*/
+
     --black: #1b1b1b;
     --primary: #9C27B0;
     --mid-white: #F7FAFC;
@@ -19,6 +21,7 @@ html {
     --white: #FFF;
 
     /*font family */
+
     font-family: 'Manrope', sans-serif;
     
 }
@@ -58,5 +61,6 @@ li {
 }
 .menu {
     width: 30px;
-    height: 3s0px;
+    height: 30px;
 }
+
