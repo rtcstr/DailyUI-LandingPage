@@ -33,7 +33,7 @@ body{
 .container-nav {
     width: 1140px;
     margin: 0 auto;
-    padding: 32px 0;
+    
 }
 
 nav {
@@ -74,6 +74,7 @@ li:hover {
 .container-main {
     width: 1140px;
     margin: 0 auto;
+    padding: 16px;
 }
 
 main {
@@ -97,11 +98,11 @@ main {
 .triangules {
     grid-column-start: 2;
     grid-column-end: 3;
-    position: absolute;
-    margin-left: 257px !important;
     width: 236px;
     height: 296px;
-    margin-top: 173px;
+    margin-top: 226px;
+    
+    
 }
 
 .content-h1 {
@@ -204,4 +205,22 @@ footer {
 footer a {
     cursor: pointer;
     color: var(--white);
+}
+
+
+@media (max-width: 992px) {
+    .container-main {
+        max-width: 960px;
+    }
+
+    .container-nav {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .container-main {
+        max-width: 720px;
+    }
 }
